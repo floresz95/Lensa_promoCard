@@ -1,0 +1,130 @@
+.promo-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 320px;
+    height: auto;
+    padding: 16px;
+    border-radius: 8px;
+    font-family: 'SF Pro Text', sans-serif;
+    box-shadow: 0px 0px 8px rgba(82, 82, 82, 0.08);
+    background-color: #fff;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .heading-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h2{
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  
+  h1{
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+  
+  p{
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+  
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .CTA{
+    width: 170px;
+    height: 40px;
+    padding: 12px 16px 12px 16px;
+    margin-top: 16px;
+    border: none;
+    border-radius: 24px;
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #fff;
+    background: linear-gradient(90deg, #0072C3 0%, #A56EFF 95.83%);
+    cursor: pointer;
+  }
+  
+  .secondary-btn{
+    margin-top:  12px;
+    text-decoration: underline;
+    color: #8D8D8D;
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .promo-card{
+      flex-direction: row-reverse;
+      
+      max-width: 560px;
+      padding: 24px;
+      gap: 16px;
+    }
+  
+    .content{
+      align-items: flex-start;
+    }
+  
+    .heading-text{
+      flex-direction: row;
+    }
+  
+    h2{
+      margin-top: 0;
+    }
+  
+    h1{
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 5px;
+    }
+  
+    p{
+      margin-top: 4px;
+    }
+  
+    .buttons{
+      flex-direction: row;
+      gap: 4px;
+    }
+  
+    .secondary-btn{
+      margin-top: 16px;
+      margin-left: 16px;
+    }
+  }
